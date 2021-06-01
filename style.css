@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: fixed;
+    color: red;
+    box-shadow: 0px 0px 7px 0px black;
+    font-size: 30px;
+    width: 100%;
+}
+
+.navbar h1 {
+    padding: 1rem;
+}
+
+.c1 {
+    text-align: center;
+}
+
+.c1 h1 {
+    padding-top: 7rem;
+    padding-bottom: 30px;
+}
+
+.c1 form input {
+    padding: 6px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.c1 form button {
+    margin: 10px 0 20px 0;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.f {
+    background-color: rgba(255, 0, 0, 0.925);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.f a {
+    text-decoration: none;
+    color: white;
+    padding: 0 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.f2 {
+    padding: 10px 0 5px 0;
+}
+
+.f4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0 25vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .f4 {
+        margin: 0 10vw;
+    }
+    .navbar h1 {
+        padding: 20px;
+    }
+    .f a {
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .f4 {
+        margin: 0 5vw;
+        font-size: 16px;
+    }
+    .f a {
+        padding: 0 2px;
+        font-size: 16px;
+    }
+}
